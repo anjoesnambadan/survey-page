@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <header>
+    <h1 id="title">SOUVRE</h1>
+    <p id="description">We would love to hear your thoughts</p>
+    <p id="lying">(I'm lying I just want opinions on cat names)</p>
+    </header>
+    <body>
+    <form id="survey-form">
+      <fieldset>
+        <div class="info" id="info">
+      <label id="name-label">Name<input id="name" type="text" placeholder="Enter your name" required /> </label>
+      <label id="email-label">Email<input id="email" type="email" placeholder="Enter your email id" required/> </label>
+      <label id="number-label">Age<small>(optional)</small>
+      <input id="number" type="number" min="13" max="120" placeholder="Enter your age"/>
+<label for="dropdown">Gender</label>
+      <select id="dropdown" required>
+        <option value="" disabled selected hidden>Please select any one</option>
+        <option value="1">Male</option>
+        <option value="2">Female</option>
+        <option value="3">Trangender</option>
+        <option value="4">monster truck</option>
+        <option value="4">2 monster trucks</option>
+        <option value="5">Prefer not to say</option>
+      </select>
+       </div class="more">
+      <label for="radio-button">Would you reccomend this website to a friend?</label>
+      <div id="radio-button">
+        <div>
+      <input value="yes" name="reccomend" type="radio" />
+      <label for="yes">Yes</label>
+      </div>
+      <div>
+      <input value="no" name="reccomend" type="radio" />
+      <label for="no">No</label>
+      </div>
+      <div>
+      <input value="yes-but" name="reccomend" type="radio" />
+      <label for="yes-but">Yes, <small>but only if I get paid.( ͡° ͜ʖ ͡°)</small> </label>
+</div>
+      </div>
+      <div class="area">
+      <label for="checkbox">Possible cat names <small>(Select all that apply)</small></label>
+        <div>
+        <label id="dog"><input type="checkbox" value="1"> dog</label>
+        </div>
+        <div>
+          <label id="mittens"><input type="checkbox" value="2"> Mrs.Mittens</label>
+          </div>
+          <div>
+        <label id="gray"><input type="checkbox" value="3"> Gray's Anatomeow</label>
+        </div>
+        <div>
+        <label id="bat"><input type="checkbox" value="4"> Batmeown</label>
+        </div>
+        <div>
+        <label id="masala"><input type="checkbox" value="5"> masala meow</label>
+        </div>
+        <div>
+        <label id="lucifer"><input type="checkbox" value="6"> Lucifer Meowningstar</label>
+        </div>
+        <div>
+        <label id="count"><input type="checkbox" value="7"> Count Chocula</label>
+        </div>
+      </div>
+      <div class="area">
+      <label id="more">Any comments or suggestions? 
+        <textarea id="tarea"></textarea>
+        </label>
+        </div>
+      </fieldset>
+      <input id="submit" type="submit" value="Submit">
+    </form>
+  </body>
+  <footer>
+    <p>This list is exhaustive. Any other names are punishable by meowrshal law</p>
+  </footer>
+</html>
