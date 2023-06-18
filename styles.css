@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+:root {
+  background-color: 	#1b1c41;
+  font-family: Poppins;
+  color: #c9cae8;
+}
+
+fieldset {
+  margin-top: 1em;
+  border: none;
+  border-radius: 3px;
+  background-color: 	#2d2f6c;
+  padding: 20px;
+}
+
+form {
+  width: 80vw;
+	margin: 0 auto;
+}
+
+input{
+  border-radius: 3px;
+  border: none;
+  background-color: 	#c9cae8;
+}
+
+footer {
+  font-size: 9px;
+  text-align: center;
+}
+
+#name, #email, #number, #dropdown{
+  display: block;
+  margin: 0.3rem 0;
+  height: 2em;
+  width: 100%;
+}
+
+#dropdown, #tarea{
+  font-family: Poppins;
+  background-color: #c9cae8;
+  color: #2d2f6c;
+  border-radius: 3px;
+}
+
+#tarea {
+  width: 100%;
+  height: 5em;
+}
+
+::placeholder{
+  color: #2d2f6c; 
+  font-family: Poppins;
+}
+
+.info {
+  margin-bottom: 1em;
+  display: block;
+}
+
+#title {
+  margin: auto;
+  text-align: center;
+}
+
+#description {
+  margin: auto;
+  text-align: center;
+  font-style: italic;
+}
+
+#lying {
+  margin: auto;
+  text-align: center;
+  font-size: 10px;
+}
+
+#submit {
+  margin: 0 auto;
+  width: 80vw;
+  height: 7%;
+  margin-top: 5px;
+  background-color: #2d2f6c; 
+  font-family: Poppins;
+  font-size: 20px;
+  color: #c9cae8;
+}
+
+#submit:hover {
+  background-color: #35377e;
+  color: #ededf7;
+}
+
+.area {
+  margin-top: 10px;
+}
